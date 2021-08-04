@@ -1,6 +1,10 @@
 require "reports"
 
 describe "Reports" do
+  it "returns no results given when an empty string is inputed" do
+    expect(report("")).to eq("No results given")
+  end
+
   it "returns green when a value of 75+ is entered" do
     expect(report("80")).to eq("Green: 1")
   end
