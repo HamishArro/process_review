@@ -10,4 +10,5 @@ def report(scores)
   if green > 0 then result += "Green: #{green}"
   elsif amber > 0 then result += "Amber: #{amber}"
   elsif red > 0 then result += "Red: #{red}" end
+  return result.length > 0 ? result : "No results given" 
 end

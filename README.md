@@ -14,4 +14,4 @@ Green : 75 - 100
 Amber : 50 - 74
 Red : 0 - 49
 
-if no values entered expect "no results given"
+if no values entered expect "No results given"
