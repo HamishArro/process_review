@@ -7,8 +7,8 @@ def report(scores)
     elsif number.to_i >= 50 then amber += 1
     else red += 1 end
   }
-  if green > 0 then result += "Green: #{green}"
-  elsif amber > 0 then result += "Amber: #{amber}"
-  elsif red > 0 then result += "Red: #{red}" end
-  return result.length > 0 ? result : "No results given" 
+  if green > 0 then result += "Green: #{green}" end
+  if amber > 0 then result += result.length > 0 ? "\nAmber: #{amber}" : "Amber: #{amber}" end
+  if red > 0 then result += result.length > 0 ? "\nRed: #{red}" : "Red: #{red}" end
+  return result.length > 0 ? result : "No results given"
 end
