@@ -13,12 +13,15 @@ describe "Reports" do
     expect(report("60")).to eq("Amber: 1")
   end
 
-  it "returns green: 2 when two values of 50 - 74 are entered" do
+  it "returns amber: 2 when two values of 50 - 74 are entered" do
     expect(report("50,70")).to eq("Amber: 2")
   end
 
-
   it "returns red when a value of 0 - 49 is entered" do
     expect(report("40")).to eq("Red: 1")
+  end
+
+  it "returns red: 2 when two values of 0 - 49 are entered" do
+    expect(report("30,40")).to eq("Red: 2")
   end
 end
