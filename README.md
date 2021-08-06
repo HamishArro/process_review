@@ -16,4 +16,6 @@ Red : 0 - 49
 
 if no values entered expect "No results given"
 
-_testing to see if scripts are working._
+## Post review
+
+- It was recommended to learn how to use scripts and i have used this repo to do so.
