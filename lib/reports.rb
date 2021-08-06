@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def report(scores)
   green = amber = red = 0
   result = ''
@@ -7,8 +9,8 @@ def report(scores)
     elsif number.to_i >= 50 then amber += 1
     else red += 1 end
   end
-  result += "Green: #{green}" if green > 0
-  if amber > 0 then result += result.length > 0 ? "\nAmber: #{amber}" : "Amber: #{amber}" end
-  if red > 0 then result += result.length > 0 ? "\nRed: #{red}" : "Red: #{red}" end
-  result.length > 0 ? result : 'No results given'
+  result += "Green: #{green}" if green.positive?
+  if amber.positive? then result += result.length.positive? ? "\nAmber: #{amber}" : "Amber: #{amber}" end
+  if red.positive? then result += result.length.positive? ? "\nRed: #{red}" : "Red: #{red}" end
+  result.length.positive? ? result : 'No results given'
 end

@@ -6,4 +6,4 @@ set -e
 cd "${0%/*}/.."
 
 echo "Running tests"
-bundle exec rspecs
+bundle exec rspec
