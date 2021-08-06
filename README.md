@@ -18,4 +18,4 @@ if no values entered expect "No results given"
 
 ## Post review
 
-- It was recommended to learn how to use scripts and i have used this repo to do so.
+- It was recommended to learn how to use scripts and I have used this repo to do so.
