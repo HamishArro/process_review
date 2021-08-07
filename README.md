@@ -18,7 +18,7 @@ if no values entered expect "No results given"
 
 ## Review recording
 
-[![](https://img.youtube.com/watch?v=gb4essBfBq8/0.jpg)](https://www.youtube.com/watch?v=gb4essBfBq8)
+[![](https://i9.ytimg.com/vi_webp/gb4essBfBq8/mqdefault.webp?v=610ecba4&sqp=CPiYu4gG&rs=AOn4CLAlGVa5VQIfrnQbiQVRrnly27YYOQ)](https://www.youtube.com/watch?v=gb4essBfBq8)
 
 ## Post review
 
